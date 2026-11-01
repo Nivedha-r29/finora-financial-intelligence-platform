@@ -1,0 +1,334 @@
+2026-10-13 11:05:02 | INFO     | 
+════════════════════════════════════════════════════════════
+  PHASE 4: FULL IID FEDERATED RUN
+════════════════════════════════════════════════════════════
+2026-10-13 11:05:02 | INFO     | 
+════════════════════════════════════════════════════════════
+  FEDERATED LEARNING TRAINING STARTED
+════════════════════════════════════════════════════════════
+2026-10-13 11:05:02 | INFO     |   Clients           : 5
+2026-10-13 11:05:02 | INFO     |   Communication rounds: 10
+2026-10-13 11:05:02 | INFO     |   Device            : cpu
+2026-10-13 11:05:02 | INFO     |   Aggregation       : Weighted FedAvg
+2026-10-13 11:05:05 | INFO     | 
+  Baseline (round 0) — Loss: 3.1374  Accuracy: 8.49%
+2026-10-13 11:05:05 | INFO     | 
+────────────────────────────────────────────────────────────
+2026-10-13 11:05:05 | INFO     |   ROUND 1/10
+2026-10-13 11:05:05 | INFO     | ────────────────────────────────────────────────────────────
+2026-10-13 11:05:05 | INFO     |   [Client 1] Received global model parameters (16 parameter tensors)
+2026-10-13 11:05:05 | INFO     |   [Client 2] Received global model parameters (16 parameter tensors)
+2026-10-13 11:05:05 | INFO     |   [Client 3] Received global model parameters (16 parameter tensors)
+2026-10-13 11:05:05 | INFO     |   [Client 4] Received global model parameters (16 parameter tensors)
+2026-10-13 11:05:05 | INFO     |   [Client 5] Received global model parameters (16 parameter tensors)
+2026-10-13 11:05:05 | INFO     |   [Client 1] Training locally...
+2026-10-13 11:05:13 | INFO     |   [Client 1] Done  | samples=12,000  loss=0.7713  acc=92.58%
+2026-10-13 11:05:13 | INFO     |   [Client 2] Training locally...
+2026-10-13 11:05:21 | INFO     |   [Client 2] Done  | samples=12,000  loss=0.7848  acc=92.58%
+2026-10-13 11:05:21 | INFO     |   [Client 3] Training locally...
+2026-10-13 11:05:30 | INFO     |   [Client 3] Done  | samples=12,000  loss=0.7707  acc=93.11%
+2026-10-13 11:05:30 | INFO     |   [Client 4] Training locally...
+2026-10-13 11:05:38 | INFO     |   [Client 4] Done  | samples=12,000  loss=0.7817  acc=92.78%
+2026-10-13 11:05:38 | INFO     |   [Client 5] Training locally...
+2026-10-13 11:05:46 | INFO     |   [Client 5] Done  | samples=12,000  loss=0.7644  acc=92.46%
+2026-10-13 11:05:46 | INFO     |   [Server]   Aggregating client updates via FedAvg...
+2026-10-13 11:05:46 | INFO     |   [Server]   Global model updated.
+2026-10-13 11:05:49 | INFO     |   [Server]   Global Evaluation  →  Loss: 0.2940  |  Accuracy: 92.37%
+2026-10-13 11:05:49 | INFO     |   [Server]   Round duration: 43.62 seconds
+2026-10-13 11:05:49 | INFO     | 
+────────────────────────────────────────────────────────────
+2026-10-13 11:05:49 | INFO     |   ROUND 2/10
+2026-10-13 11:05:49 | INFO     | ────────────────────────────────────────────────────────────
+2026-10-13 11:05:49 | INFO     |   [Client 1] Received global model parameters (16 parameter tensors)
+2026-10-13 11:05:49 | INFO     |   [Client 2] Received global model parameters (16 parameter tensors)
+2026-10-13 11:05:49 | INFO     |   [Client 3] Received global model parameters (16 parameter tensors)
+2026-10-13 11:05:49 | INFO     |   [Client 4] Received global model parameters (16 parameter tensors)
+2026-10-13 11:05:49 | INFO     |   [Client 5] Received global model parameters (16 parameter tensors)
+2026-10-13 11:05:49 | INFO     |   [Client 1] Training locally...
+2026-10-13 11:05:57 | INFO     |   [Client 1] Done  | samples=12,000  loss=0.3566  acc=95.53%
+2026-10-13 11:05:57 | INFO     |   [Client 2] Training locally...
+2026-10-13 11:06:06 | INFO     |   [Client 2] Done  | samples=12,000  loss=0.3636  acc=95.20%
+2026-10-13 11:06:06 | INFO     |   [Client 3] Training locally...
+2026-10-13 11:06:14 | INFO     |   [Client 3] Done  | samples=12,000  loss=0.3580  acc=95.21%
+2026-10-13 11:06:14 | INFO     |   [Client 4] Training locally...
+2026-10-13 11:06:22 | INFO     |   [Client 4] Done  | samples=12,000  loss=0.3611  acc=95.52%
+2026-10-13 11:06:22 | INFO     |   [Client 5] Training locally...
+2026-10-13 11:06:31 | INFO     |   [Client 5] Done  | samples=12,000  loss=0.3600  acc=95.12%
+2026-10-13 11:06:31 | INFO     |   [Server]   Aggregating client updates via FedAvg...
+2026-10-13 11:06:31 | INFO     |   [Server]   Global model updated.
+2026-10-13 11:06:34 | INFO     |   [Server]   Global Evaluation  →  Loss: 0.1856  |  Accuracy: 94.64%
+2026-10-13 11:06:34 | INFO     |   [Server]   Round duration: 45.79 seconds
+2026-10-13 11:06:34 | INFO     | 
+────────────────────────────────────────────────────────────
+2026-10-13 11:06:34 | INFO     |   ROUND 3/10
+2026-10-13 11:06:34 | INFO     | ────────────────────────────────────────────────────────────
+2026-10-13 11:06:34 | INFO     |   [Client 1] Received global model parameters (16 parameter tensors)
+2026-10-13 11:06:34 | INFO     |   [Client 2] Received global model parameters (16 parameter tensors)
+2026-10-13 11:06:34 | INFO     |   [Client 3] Received global model parameters (16 parameter tensors)
+2026-10-13 11:06:34 | INFO     |   [Client 4] Received global model parameters (16 parameter tensors)
+2026-10-13 11:06:34 | INFO     |   [Client 5] Received global model parameters (16 parameter tensors)
+2026-10-13 11:06:34 | INFO     |   [Client 1] Training locally...
+2026-10-13 11:06:43 | INFO     |   [Client 1] Done  | samples=12,000  loss=0.2822  acc=96.40%
+2026-10-13 11:06:43 | INFO     |   [Client 2] Training locally...
+2026-10-13 11:06:52 | INFO     |   [Client 2] Done  | samples=12,000  loss=0.2804  acc=96.44%
+2026-10-13 11:06:52 | INFO     |   [Client 3] Training locally...
+2026-10-13 11:07:01 | INFO     |   [Client 3] Done  | samples=12,000  loss=0.2754  acc=96.34%
+2026-10-13 11:07:01 | INFO     |   [Client 4] Training locally...
+2026-10-13 11:07:10 | INFO     |   [Client 4] Done  | samples=12,000  loss=0.2746  acc=96.22%
+2026-10-13 11:07:10 | INFO     |   [Client 5] Training locally...
+2026-10-13 11:07:20 | INFO     |   [Client 5] Done  | samples=12,000  loss=0.2832  acc=96.30%
+2026-10-13 11:07:20 | INFO     |   [Server]   Aggregating client updates via FedAvg...
+2026-10-13 11:07:20 | INFO     |   [Server]   Global model updated.
+2026-10-13 11:07:23 | INFO     |   [Server]   Global Evaluation  →  Loss: 0.1500  |  Accuracy: 95.51%
+2026-10-13 11:07:23 | INFO     |   [Server]   Round duration: 48.56 seconds
+2026-10-13 11:07:23 | INFO     | 
+────────────────────────────────────────────────────────────
+2026-10-13 11:07:23 | INFO     |   ROUND 4/10
+2026-10-13 11:07:23 | INFO     | ────────────────────────────────────────────────────────────
+2026-10-13 11:07:23 | INFO     |   [Client 1] Received global model parameters (16 parameter tensors)
+2026-10-13 11:07:23 | INFO     |   [Client 2] Received global model parameters (16 parameter tensors)
+2026-10-13 11:07:23 | INFO     |   [Client 3] Received global model parameters (16 parameter tensors)
+2026-10-13 11:07:23 | INFO     |   [Client 4] Received global model parameters (16 parameter tensors)
+2026-10-13 11:07:23 | INFO     |   [Client 5] Received global model parameters (16 parameter tensors)
+2026-10-13 11:07:23 | INFO     |   [Client 1] Training locally...
+2026-10-13 11:07:32 | INFO     |   [Client 1] Done  | samples=12,000  loss=0.2389  acc=96.78%
+2026-10-13 11:07:32 | INFO     |   [Client 2] Training locally...
+2026-10-13 11:07:41 | INFO     |   [Client 2] Done  | samples=12,000  loss=0.2376  acc=97.03%
+2026-10-13 11:07:41 | INFO     |   [Client 3] Training locally...
+2026-10-13 11:07:50 | INFO     |   [Client 3] Done  | samples=12,000  loss=0.2387  acc=96.97%
+2026-10-13 11:07:50 | INFO     |   [Client 4] Training locally...
+2026-10-13 11:07:59 | INFO     |   [Client 4] Done  | samples=12,000  loss=0.2413  acc=97.03%
+2026-10-13 11:07:59 | INFO     |   [Client 5] Training locally...
+2026-10-13 11:08:07 | INFO     |   [Client 5] Done  | samples=12,000  loss=0.2461  acc=96.92%
+2026-10-13 11:08:07 | INFO     |   [Server]   Aggregating client updates via FedAvg...
+2026-10-13 11:08:07 | INFO     |   [Server]   Global model updated.
+2026-10-13 11:08:10 | INFO     |   [Server]   Global Evaluation  →  Loss: 0.1292  |  Accuracy: 96.09%
+2026-10-13 11:08:10 | INFO     |   [Server]   Round duration: 47.06 seconds
+2026-10-13 11:08:10 | INFO     | 
+────────────────────────────────────────────────────────────
+2026-10-13 11:08:10 | INFO     |   ROUND 5/10
+2026-10-13 11:08:10 | INFO     | ────────────────────────────────────────────────────────────
+2026-10-13 11:08:10 | INFO     |   [Client 1] Received global model parameters (16 parameter tensors)
+2026-10-13 11:08:10 | INFO     |   [Client 2] Received global model parameters (16 parameter tensors)
+2026-10-13 11:08:10 | INFO     |   [Client 3] Received global model parameters (16 parameter tensors)
+2026-10-13 11:08:10 | INFO     |   [Client 4] Received global model parameters (16 parameter tensors)
+2026-10-13 11:08:10 | INFO     |   [Client 5] Received global model parameters (16 parameter tensors)
+2026-10-13 11:08:10 | INFO     |   [Client 1] Training locally...
+2026-10-13 11:08:18 | INFO     |   [Client 1] Done  | samples=12,000  loss=0.2098  acc=97.47%
+2026-10-13 11:08:18 | INFO     |   [Client 2] Training locally...
+2026-10-13 11:08:27 | INFO     |   [Client 2] Done  | samples=12,000  loss=0.2088  acc=97.53%
+2026-10-13 11:08:27 | INFO     |   [Client 3] Training locally...
+2026-10-13 11:08:35 | INFO     |   [Client 3] Done  | samples=12,000  loss=0.2163  acc=97.58%
+2026-10-13 11:08:35 | INFO     |   [Client 4] Training locally...
+2026-10-13 11:08:43 | INFO     |   [Client 4] Done  | samples=12,000  loss=0.2141  acc=97.47%
+2026-10-13 11:08:43 | INFO     |   [Client 5] Training locally...
+2026-10-13 11:08:51 | INFO     |   [Client 5] Done  | samples=12,000  loss=0.2160  acc=97.45%
+2026-10-13 11:08:51 | INFO     |   [Server]   Aggregating client updates via FedAvg...
+2026-10-13 11:08:51 | INFO     |   [Server]   Global model updated.
+2026-10-13 11:08:54 | INFO     |   [Server]   Global Evaluation  →  Loss: 0.1138  |  Accuracy: 96.61%
+2026-10-13 11:08:54 | INFO     |   [Server]   Round duration: 43.99 seconds
+2026-10-13 11:08:54 | INFO     | 
+────────────────────────────────────────────────────────────
+2026-10-13 11:08:54 | INFO     |   ROUND 6/10
+2026-10-13 11:08:54 | INFO     | ────────────────────────────────────────────────────────────
+2026-10-13 11:08:54 | INFO     |   [Client 1] Received global model parameters (16 parameter tensors)
+2026-10-13 11:08:54 | INFO     |   [Client 2] Received global model parameters (16 parameter tensors)
+2026-10-13 11:08:54 | INFO     |   [Client 3] Received global model parameters (16 parameter tensors)
+2026-10-13 11:08:54 | INFO     |   [Client 4] Received global model parameters (16 parameter tensors)
+2026-10-13 11:08:54 | INFO     |   [Client 5] Received global model parameters (16 parameter tensors)
+2026-10-13 11:08:54 | INFO     |   [Client 1] Training locally...
+2026-10-13 11:09:02 | INFO     |   [Client 1] Done  | samples=12,000  loss=0.2028  acc=97.53%
+2026-10-13 11:09:02 | INFO     |   [Client 2] Training locally...
+2026-10-13 11:09:10 | INFO     |   [Client 2] Done  | samples=12,000  loss=0.2018  acc=97.83%
+2026-10-13 11:09:10 | INFO     |   [Client 3] Training locally...
+2026-10-13 11:09:18 | INFO     |   [Client 3] Done  | samples=12,000  loss=0.1977  acc=97.85%
+2026-10-13 11:09:18 | INFO     |   [Client 4] Training locally...
+2026-10-13 11:09:26 | INFO     |   [Client 4] Done  | samples=12,000  loss=0.1984  acc=97.87%
+2026-10-13 11:09:26 | INFO     |   [Client 5] Training locally...
+2026-10-13 11:09:34 | INFO     |   [Client 5] Done  | samples=12,000  loss=0.1994  acc=97.58%
+2026-10-13 11:09:34 | INFO     |   [Server]   Aggregating client updates via FedAvg...
+2026-10-13 11:09:34 | INFO     |   [Server]   Global model updated.
+2026-10-13 11:09:37 | INFO     |   [Server]   Global Evaluation  →  Loss: 0.1036  |  Accuracy: 96.85%
+2026-10-13 11:09:37 | INFO     |   [Server]   Round duration: 43.48 seconds
+2026-10-13 11:09:37 | INFO     | 
+────────────────────────────────────────────────────────────
+2026-10-13 11:09:37 | INFO     |   ROUND 7/10
+2026-10-13 11:09:37 | INFO     | ────────────────────────────────────────────────────────────
+2026-10-13 11:09:37 | INFO     |   [Client 1] Received global model parameters (16 parameter tensors)
+2026-10-13 11:09:37 | INFO     |   [Client 2] Received global model parameters (16 parameter tensors)
+2026-10-13 11:09:37 | INFO     |   [Client 3] Received global model parameters (16 parameter tensors)
+2026-10-13 11:09:37 | INFO     |   [Client 4] Received global model parameters (16 parameter tensors)
+2026-10-13 11:09:37 | INFO     |   [Client 5] Received global model parameters (16 parameter tensors)
+2026-10-13 11:09:37 | INFO     |   [Client 1] Training locally...
+2026-10-13 11:09:45 | INFO     |   [Client 1] Done  | samples=12,000  loss=0.1798  acc=97.97%
+2026-10-13 11:09:45 | INFO     |   [Client 2] Training locally...
+2026-10-13 11:09:53 | INFO     |   [Client 2] Done  | samples=12,000  loss=0.1804  acc=98.05%
+2026-10-13 11:09:53 | INFO     |   [Client 3] Training locally...
+2026-10-13 11:10:01 | INFO     |   [Client 3] Done  | samples=12,000  loss=0.1794  acc=98.05%
+2026-10-13 11:10:01 | INFO     |   [Client 4] Training locally...
+2026-10-13 11:10:09 | INFO     |   [Client 4] Done  | samples=12,000  loss=0.1794  acc=97.97%
+2026-10-13 11:10:09 | INFO     |   [Client 5] Training locally...
+2026-10-13 11:10:17 | INFO     |   [Client 5] Done  | samples=12,000  loss=0.1869  acc=97.80%
+2026-10-13 11:10:17 | INFO     |   [Server]   Aggregating client updates via FedAvg...
+2026-10-13 11:10:17 | INFO     |   [Server]   Global model updated.
+2026-10-13 11:10:20 | INFO     |   [Server]   Global Evaluation  →  Loss: 0.0952  |  Accuracy: 97.06%
+2026-10-13 11:10:20 | INFO     |   [Server]   Round duration: 42.74 seconds
+2026-10-13 11:10:20 | INFO     | 
+────────────────────────────────────────────────────────────
+2026-10-13 11:10:20 | INFO     |   ROUND 8/10
+2026-10-13 11:10:20 | INFO     | ────────────────────────────────────────────────────────────
+2026-10-13 11:10:20 | INFO     |   [Client 1] Received global model parameters (16 parameter tensors)
+2026-10-13 11:10:20 | INFO     |   [Client 2] Received global model parameters (16 parameter tensors)
+2026-10-13 11:10:20 | INFO     |   [Client 3] Received global model parameters (16 parameter tensors)
+2026-10-13 11:10:20 | INFO     |   [Client 4] Received global model parameters (16 parameter tensors)
+2026-10-13 11:10:20 | INFO     |   [Client 5] Received global model parameters (16 parameter tensors)
+2026-10-13 11:10:20 | INFO     |   [Client 1] Training locally...
+2026-10-13 11:10:28 | INFO     |   [Client 1] Done  | samples=12,000  loss=0.1738  acc=98.12%
+2026-10-13 11:10:28 | INFO     |   [Client 2] Training locally...
+2026-10-13 11:10:36 | INFO     |   [Client 2] Done  | samples=12,000  loss=0.1681  acc=98.31%
+2026-10-13 11:10:36 | INFO     |   [Client 3] Training locally...
+2026-10-13 11:10:44 | INFO     |   [Client 3] Done  | samples=12,000  loss=0.1657  acc=98.19%
+2026-10-13 11:10:44 | INFO     |   [Client 4] Training locally...
+2026-10-13 11:10:52 | INFO     |   [Client 4] Done  | samples=12,000  loss=0.1588  acc=98.18%
+2026-10-13 11:10:52 | INFO     |   [Client 5] Training locally...
+2026-10-13 11:11:00 | INFO     |   [Client 5] Done  | samples=12,000  loss=0.1703  acc=98.03%
+2026-10-13 11:11:00 | INFO     |   [Server]   Aggregating client updates via FedAvg...
+2026-10-13 11:11:00 | INFO     |   [Server]   Global model updated.
+2026-10-13 11:11:03 | INFO     |   [Server]   Global Evaluation  →  Loss: 0.0909  |  Accuracy: 97.28%
+2026-10-13 11:11:03 | INFO     |   [Server]   Round duration: 42.90 seconds
+2026-10-13 11:11:03 | INFO     | 
+────────────────────────────────────────────────────────────
+2026-10-13 11:11:03 | INFO     |   ROUND 9/10
+2026-10-13 11:11:03 | INFO     | ────────────────────────────────────────────────────────────
+2026-10-13 11:11:03 | INFO     |   [Client 1] Received global model parameters (16 parameter tensors)
+2026-10-13 11:11:03 | INFO     |   [Client 2] Received global model parameters (16 parameter tensors)
+2026-10-13 11:11:03 | INFO     |   [Client 3] Received global model parameters (16 parameter tensors)
+2026-10-13 11:11:03 | INFO     |   [Client 4] Received global model parameters (16 parameter tensors)
+2026-10-13 11:11:03 | INFO     |   [Client 5] Received global model parameters (16 parameter tensors)
+2026-10-13 11:11:03 | INFO     |   [Client 1] Training locally...
+2026-10-13 11:11:11 | INFO     |   [Client 1] Done  | samples=12,000  loss=0.1567  acc=98.42%
+2026-10-13 11:11:11 | INFO     |   [Client 2] Training locally...
+2026-10-13 11:11:19 | INFO     |   [Client 2] Done  | samples=12,000  loss=0.1584  acc=98.28%
+2026-10-13 11:11:19 | INFO     |   [Client 3] Training locally...
+2026-10-13 11:11:27 | INFO     |   [Client 3] Done  | samples=12,000  loss=0.1544  acc=98.40%
+2026-10-13 11:11:27 | INFO     |   [Client 4] Training locally...
+2026-10-13 11:11:35 | INFO     |   [Client 4] Done  | samples=12,000  loss=0.1584  acc=98.27%
+2026-10-13 11:11:35 | INFO     |   [Client 5] Training locally...
+2026-10-13 11:11:43 | INFO     |   [Client 5] Done  | samples=12,000  loss=0.1591  acc=98.20%
+2026-10-13 11:11:43 | INFO     |   [Server]   Aggregating client updates via FedAvg...
+2026-10-13 11:11:43 | INFO     |   [Server]   Global model updated.
+2026-10-13 11:11:46 | INFO     |   [Server]   Global Evaluation  →  Loss: 0.0866  |  Accuracy: 97.34%
+2026-10-13 11:11:46 | INFO     |   [Server]   Round duration: 42.80 seconds
+2026-10-13 11:11:46 | INFO     | 
+────────────────────────────────────────────────────────────
+2026-10-13 11:11:46 | INFO     |   ROUND 10/10
+2026-10-13 11:11:46 | INFO     | ────────────────────────────────────────────────────────────
+2026-10-13 11:11:46 | INFO     |   [Client 1] Received global model parameters (16 parameter tensors)
+2026-10-13 11:11:46 | INFO     |   [Client 2] Received global model parameters (16 parameter tensors)
+2026-10-13 11:11:46 | INFO     |   [Client 3] Received global model parameters (16 parameter tensors)
+2026-10-13 11:11:46 | INFO     |   [Client 4] Received global model parameters (16 parameter tensors)
+2026-10-13 11:11:46 | INFO     |   [Client 5] Received global model parameters (16 parameter tensors)
+2026-10-13 11:11:46 | INFO     |   [Client 1] Training locally...
+2026-10-13 11:11:54 | INFO     |   [Client 1] Done  | samples=12,000  loss=0.1527  acc=98.41%
+2026-10-13 11:11:54 | INFO     |   [Client 2] Training locally...
+2026-10-13 11:12:02 | INFO     |   [Client 2] Done  | samples=12,000  loss=0.1432  acc=98.45%
+2026-10-13 11:12:02 | INFO     |   [Client 3] Training locally...
+2026-10-13 11:12:10 | INFO     |   [Client 3] Done  | samples=12,000  loss=0.1522  acc=98.48%
+2026-10-13 11:12:10 | INFO     |   [Client 4] Training locally...
+2026-10-13 11:12:18 | INFO     |   [Client 4] Done  | samples=12,000  loss=0.1473  acc=98.37%
+2026-10-13 11:12:18 | INFO     |   [Client 5] Training locally...
+2026-10-13 11:12:27 | INFO     |   [Client 5] Done  | samples=12,000  loss=0.1548  acc=98.42%
+2026-10-13 11:12:27 | INFO     |   [Server]   Aggregating client updates via FedAvg...
+2026-10-13 11:12:27 | INFO     |   [Server]   Global model updated.
+2026-10-13 11:12:30 | INFO     |   [Server]   Global Evaluation  →  Loss: 0.0839  |  Accuracy: 97.34%
+2026-10-13 11:12:30 | INFO     |   [Server]   Round duration: 43.69 seconds
+2026-10-13 11:12:30 | INFO     | 
+════════════════════════════════════════════════════════════
+  TRAINING COMPLETE
+════════════════════════════════════════════════════════════
+2026-10-13 11:12:30 | INFO     |   Final Global Loss     : 0.0839
+2026-10-13 11:12:30 | INFO     |   Final Global Accuracy : 97.34%
+2026-10-13 11:12:30 | INFO     | 
+  Baseline Accuracy  : 8.49%
+2026-10-13 11:12:30 | INFO     |   Accuracy change    : +88.85 percentage points
+2026-10-13 11:12:30 | INFO     | 
+════════════════════════════════════════════════════════════
+  PHASE 4: CENTRALIZED COMPARISON
+════════════════════════════════════════════════════════════
+2026-10-13 11:16:14 | INFO     | 
+════════════════════════════════════════════════════════════
+  PHASE 4: NON-IID DIAGNOSTIC RUN
+════════════════════════════════════════════════════════════
+2026-10-13 11:16:14 | INFO     | 
+════════════════════════════════════════════════════════════
+  FEDERATED LEARNING TRAINING STARTED
+════════════════════════════════════════════════════════════
+2026-10-13 11:16:14 | INFO     |   Clients           : 5
+2026-10-13 11:16:14 | INFO     |   Communication rounds: 2
+2026-10-13 11:16:14 | INFO     |   Device            : cpu
+2026-10-13 11:16:14 | INFO     |   Aggregation       : Weighted FedAvg
+2026-10-13 11:16:17 | INFO     | 
+  Baseline (round 0) — Loss: 3.1374  Accuracy: 8.49%
+2026-10-13 11:16:17 | INFO     | 
+────────────────────────────────────────────────────────────
+2026-10-13 11:16:17 | INFO     |   ROUND 1/2
+2026-10-13 11:16:17 | INFO     | ────────────────────────────────────────────────────────────
+2026-10-13 11:16:17 | INFO     |   [Client 1] Received global model parameters (16 parameter tensors)
+2026-10-13 11:16:17 | INFO     |   [Client 2] Received global model parameters (16 parameter tensors)
+2026-10-13 11:16:17 | INFO     |   [Client 3] Received global model parameters (16 parameter tensors)
+2026-10-13 11:16:17 | INFO     |   [Client 4] Received global model parameters (16 parameter tensors)
+2026-10-13 11:16:17 | INFO     |   [Client 5] Received global model parameters (16 parameter tensors)
+2026-10-13 11:16:17 | INFO     |   [Client 1] Training locally...
+2026-10-13 11:16:25 | INFO     |   [Client 1] Done  | samples=11,928  loss=0.4223  acc=96.67%
+2026-10-13 11:16:25 | INFO     |   [Client 2] Training locally...
+2026-10-13 11:16:36 | INFO     |   [Client 2] Done  | samples=15,736  loss=0.5748  acc=95.49%
+2026-10-13 11:16:36 | INFO     |   [Client 3] Training locally...
+2026-10-13 11:16:45 | INFO     |   [Client 3] Done  | samples=13,904  loss=0.5146  acc=94.99%
+2026-10-13 11:16:45 | INFO     |   [Client 4] Training locally...
+2026-10-13 11:16:53 | INFO     |   [Client 4] Done  | samples=13,039  loss=0.3916  acc=96.66%
+2026-10-13 11:16:53 | INFO     |   [Client 5] Training locally...
+2026-10-13 11:16:57 | INFO     |   [Client 5] Done  | samples=5,393  loss=0.9505  acc=94.55%
+2026-10-13 11:16:57 | INFO     |   [Server]   Aggregating client updates via FedAvg...
+2026-10-13 11:16:57 | INFO     |   [Server]   Global model updated.
+2026-10-13 11:17:00 | INFO     |   [Server]   Global Evaluation  →  Loss: 0.7763  |  Accuracy: 83.43%
+2026-10-13 11:17:00 | INFO     |   [Server]   Round duration: 42.84 seconds
+2026-10-13 11:17:00 | INFO     | 
+────────────────────────────────────────────────────────────
+2026-10-13 11:17:00 | INFO     |   ROUND 2/2
+2026-10-13 11:17:00 | INFO     | ────────────────────────────────────────────────────────────
+2026-10-13 11:17:00 | INFO     |   [Client 1] Received global model parameters (16 parameter tensors)
+2026-10-13 11:17:00 | INFO     |   [Client 2] Received global model parameters (16 parameter tensors)
+2026-10-13 11:17:00 | INFO     |   [Client 3] Received global model parameters (16 parameter tensors)
+2026-10-13 11:17:00 | INFO     |   [Client 4] Received global model parameters (16 parameter tensors)
+2026-10-13 11:17:00 | INFO     |   [Client 5] Received global model parameters (16 parameter tensors)
+2026-10-13 11:17:00 | INFO     |   [Client 1] Training locally...
+2026-10-13 11:17:08 | INFO     |   [Client 1] Done  | samples=11,928  loss=0.2578  acc=97.45%
+2026-10-13 11:17:08 | INFO     |   [Client 2] Training locally...
+2026-10-13 11:17:18 | INFO     |   [Client 2] Done  | samples=15,736  loss=0.3278  acc=96.61%
+2026-10-13 11:17:18 | INFO     |   [Client 3] Training locally...
+2026-10-13 11:17:28 | INFO     |   [Client 3] Done  | samples=13,904  loss=0.2997  acc=96.26%
+2026-10-13 11:17:28 | INFO     |   [Client 4] Training locally...
+2026-10-13 11:17:36 | INFO     |   [Client 4] Done  | samples=13,039  loss=0.2299  acc=98.08%
+2026-10-13 11:17:36 | INFO     |   [Client 5] Training locally...
+2026-10-13 11:17:40 | INFO     |   [Client 5] Done  | samples=5,393  loss=0.4648  acc=96.27%
+2026-10-13 11:17:40 | INFO     |   [Server]   Aggregating client updates via FedAvg...
+2026-10-13 11:17:40 | INFO     |   [Server]   Global model updated.
+2026-10-13 11:17:43 | INFO     |   [Server]   Global Evaluation  →  Loss: 0.4007  |  Accuracy: 90.95%
+2026-10-13 11:17:43 | INFO     |   [Server]   Round duration: 42.86 seconds
+2026-10-13 11:17:43 | INFO     | 
+════════════════════════════════════════════════════════════
+  TRAINING COMPLETE
+════════════════════════════════════════════════════════════
+2026-10-13 11:17:43 | INFO     |   Final Global Loss     : 0.4007
+2026-10-13 11:17:43 | INFO     |   Final Global Accuracy : 90.95%
+2026-10-13 11:17:43 | INFO     | 
+  Baseline Accuracy  : 8.49%
+2026-10-13 11:17:43 | INFO     |   Accuracy change    : +82.46 percentage points
+2026-10-13 11:17:45 | INFO     | 
+════════════════════════════════════════════════════════════
+  PHASE 4 COMPLETE
+════════════════════════════════════════════════════════════
+2026-10-13 11:17:45 | INFO     | IID final test: loss=0.0839, accuracy=97.34%
+2026-10-13 11:17:45 | INFO     | Centralized: loss=0.0678, accuracy=97.84%
+2026-10-13 11:17:45 | INFO     | Non-IID at round 2: accuracy=90.95%
+2026-10-13 11:17:45 | INFO     | Phase 4 artifacts saved under results\phase4

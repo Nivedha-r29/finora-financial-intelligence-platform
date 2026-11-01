@@ -1,0 +1,166 @@
+{
+  "dp_fedavg_iid": {
+    "enabled": true,
+    "accountant_type": "existing lightweight RDP-style approximation",
+    "formal_guarantee_claimed": false,
+    "noise_multiplier": 1.0,
+    "max_grad_norm": 1.0,
+    "delta": 1e-05,
+    "per_client": {
+      "1": {
+        "epsilon_estimate": 1.9566387340756117,
+        "delta": 1e-05,
+        "rdp_accumulator": 0.31193509622272175,
+        "steps": 46
+      },
+      "2": {
+        "epsilon_estimate": 1.956648962877634,
+        "delta": 1e-05,
+        "rdp_accumulator": 0.31194532502474426,
+        "steps": 46
+      },
+      "3": {
+        "epsilon_estimate": 1.956648962877634,
+        "delta": 1e-05,
+        "rdp_accumulator": 0.31194532502474426,
+        "steps": 46
+      },
+      "4": {
+        "epsilon_estimate": 1.956648962877634,
+        "delta": 1e-05,
+        "rdp_accumulator": 0.31194532502474426,
+        "steps": 46
+      },
+      "5": {
+        "epsilon_estimate": 1.956659199019409,
+        "delta": 1e-05,
+        "rdp_accumulator": 0.3119555611665191,
+        "steps": 46
+      }
+    },
+    "max_client_epsilon_estimate": 1.956659199019409
+  },
+  "secure_dp_fedavg_iid": {
+    "enabled": true,
+    "accountant_type": "existing lightweight RDP-style approximation",
+    "formal_guarantee_claimed": false,
+    "noise_multiplier": 1.0,
+    "max_grad_norm": 1.0,
+    "delta": 1e-05,
+    "per_client": {
+      "1": {
+        "epsilon_estimate": 1.9566387340756117,
+        "delta": 1e-05,
+        "rdp_accumulator": 0.31193509622272175,
+        "steps": 46
+      },
+      "2": {
+        "epsilon_estimate": 1.956648962877634,
+        "delta": 1e-05,
+        "rdp_accumulator": 0.31194532502474426,
+        "steps": 46
+      },
+      "3": {
+        "epsilon_estimate": 1.956648962877634,
+        "delta": 1e-05,
+        "rdp_accumulator": 0.31194532502474426,
+        "steps": 46
+      },
+      "4": {
+        "epsilon_estimate": 1.956648962877634,
+        "delta": 1e-05,
+        "rdp_accumulator": 0.31194532502474426,
+        "steps": 46
+      },
+      "5": {
+        "epsilon_estimate": 1.956659199019409,
+        "delta": 1e-05,
+        "rdp_accumulator": 0.3119555611665191,
+        "steps": 46
+      }
+    },
+    "max_client_epsilon_estimate": 1.956659199019409
+  },
+  "dp_fedavg_non_iid": {
+    "enabled": true,
+    "accountant_type": "existing lightweight RDP-style approximation",
+    "formal_guarantee_claimed": false,
+    "noise_multiplier": 1.0,
+    "max_grad_norm": 1.0,
+    "delta": 1e-05,
+    "per_client": {
+      "1": {
+        "epsilon_estimate": 1.7743346730947351,
+        "delta": 1e-05,
+        "rdp_accumulator": 0.12963103524184522,
+        "steps": 108
+      },
+      "2": {
+        "epsilon_estimate": 2.2361327633413146,
+        "delta": 1e-05,
+        "rdp_accumulator": 0.5914291254884247,
+        "steps": 24
+      },
+      "3": {
+        "epsilon_estimate": 2.1841154324613465,
+        "delta": 1e-05,
+        "rdp_accumulator": 0.5394117946084566,
+        "steps": 26
+      },
+      "4": {
+        "epsilon_estimate": 1.9640297253175827,
+        "delta": 1e-05,
+        "rdp_accumulator": 0.3193260874646929,
+        "steps": 44
+      },
+      "5": {
+        "epsilon_estimate": 2.267397339871046,
+        "delta": 1e-05,
+        "rdp_accumulator": 0.6226937020181561,
+        "steps": 24
+      }
+    },
+    "max_client_epsilon_estimate": 2.267397339871046
+  },
+  "secure_dp_fedavg_non_iid": {
+    "enabled": true,
+    "accountant_type": "existing lightweight RDP-style approximation",
+    "formal_guarantee_claimed": false,
+    "noise_multiplier": 1.0,
+    "max_grad_norm": 1.0,
+    "delta": 1e-05,
+    "per_client": {
+      "1": {
+        "epsilon_estimate": 1.7743346730947351,
+        "delta": 1e-05,
+        "rdp_accumulator": 0.12963103524184522,
+        "steps": 108
+      },
+      "2": {
+        "epsilon_estimate": 2.2361327633413146,
+        "delta": 1e-05,
+        "rdp_accumulator": 0.5914291254884247,
+        "steps": 24
+      },
+      "3": {
+        "epsilon_estimate": 2.1841154324613465,
+        "delta": 1e-05,
+        "rdp_accumulator": 0.5394117946084566,
+        "steps": 26
+      },
+      "4": {
+        "epsilon_estimate": 1.9640297253175827,
+        "delta": 1e-05,
+        "rdp_accumulator": 0.3193260874646929,
+        "steps": 44
+      },
+      "5": {
+        "epsilon_estimate": 2.267397339871046,
+        "delta": 1e-05,
+        "rdp_accumulator": 0.6226937020181561,
+        "steps": 24
+      }
+    },
+    "max_client_epsilon_estimate": 2.267397339871046
+  }
+}

@@ -1,0 +1,9 @@
+torch>=2.14.1
+torchvision>=0.29.1
+numpy>=1.26.0
+matplotlib>=3.8.0
+pandas>=2.2.0
+scikit-learn>=1.5.0
+cryptography>=44.0.0
+streamlit>=1.40.0
+plotly>=5.24.0

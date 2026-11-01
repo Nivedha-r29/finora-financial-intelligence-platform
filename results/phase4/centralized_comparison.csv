@@ -1,0 +1,3 @@
+method,test_loss,test_accuracy,accuracy_difference_centralized_minus_federated_pp,elapsed_seconds,training_epochs,rounds,training_procedure
+federated_iid,0.08392139696478844,97.34,0.5,444.62375059999977,,10,10 rounds; one local epoch per client per round with FedAvg
+centralized,0.06780482029542327,97.84,0.5,224.7632123000003,10,0,One model; 10 full-dataset epochs with Adam

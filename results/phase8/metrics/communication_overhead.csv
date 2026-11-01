@@ -1,0 +1,10 @@
+experiment_id,method,partition,estimated_total_communication_bytes,estimated_update_payload_bytes,overhead_percent_vs_same_partition_fedavg,global_model_state_bytes,rounds,clients,estimated_downlink_bytes,estimated_sample_count_metadata_bytes,estimated_secure_key_share_setup_bytes,estimate_excludes_network_framing_and_tls,estimate_excludes_per_client_monitoring_scalars
+centralized_all_training,centralized,not_applicable,0,0,,,,,,,,,
+fedavg_iid,fedavg,iid,123040,61480,0.0,6148.0,2.0,5.0,61480.0,80.0,0.0,True,True
+dp_fedavg_iid,dp_fedavg,iid,123040,61480,0.0,6148.0,2.0,5.0,61480.0,80.0,0.0,True,True
+secure_fedavg_iid,secure_fedavg,iid,187560,122960,52.43823146944082,6148.0,2.0,5.0,61480.0,80.0,3040.0,True,True
+secure_dp_fedavg_iid,secure_dp_fedavg,iid,187560,122960,52.43823146944082,6148.0,2.0,5.0,61480.0,80.0,3040.0,True,True
+fedavg_non_iid,fedavg,non_iid,123040,61480,0.0,6148.0,2.0,5.0,61480.0,80.0,0.0,True,True
+dp_fedavg_non_iid,dp_fedavg,non_iid,123040,61480,0.0,6148.0,2.0,5.0,61480.0,80.0,0.0,True,True
+secure_fedavg_non_iid,secure_fedavg,non_iid,187560,122960,52.43823146944082,6148.0,2.0,5.0,61480.0,80.0,3040.0,True,True
+secure_dp_fedavg_non_iid,secure_dp_fedavg,non_iid,187560,122960,52.43823146944082,6148.0,2.0,5.0,61480.0,80.0,3040.0,True,True

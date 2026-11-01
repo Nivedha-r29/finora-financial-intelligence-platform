@@ -1,0 +1,35 @@
+2026-10-31 16:08:25 | INFO     | 
+════════════════════════════════════════════════════════════
+  FEDERATED LEARNING TRAINING STARTED
+════════════════════════════════════════════════════════════
+2026-10-31 16:08:25 | INFO     |   Clients           : 2
+2026-10-31 16:08:25 | INFO     |   Communication rounds: 1
+2026-10-31 16:08:25 | INFO     |   Device            : cpu
+2026-10-31 16:08:25 | INFO     |   Aggregation       : Secure FedAvg
+2026-10-31 16:08:25 | INFO     |   DP mode          : disabled
+2026-10-31 16:08:25 | INFO     |   Secure masks     : enabled (modulus=2147483647, qscale=1000.0)
+2026-10-31 16:08:25 | INFO     | 
+  Baseline (round 0) — Loss: 2.3633  Accuracy: 16.67%
+2026-10-31 16:08:25 | INFO     | 
+────────────────────────────────────────────────────────────
+2026-10-31 16:08:25 | INFO     |   ROUND 1/1
+2026-10-31 16:08:25 | INFO     | ────────────────────────────────────────────────────────────
+2026-10-31 16:08:26 | INFO     |   [Client 1] Received global model parameters (16 parameter tensors)
+2026-10-31 16:08:26 | INFO     |   [Client 2] Received global model parameters (16 parameter tensors)
+2026-10-31 16:08:26 | INFO     |   [Client 1] Training locally...
+2026-10-31 16:08:27 | INFO     |   [Client 1] Done  | samples=8  loss=2.7865  acc=12.50%
+2026-10-31 16:08:27 | INFO     |   [Client 2] Training locally...
+2026-10-31 16:08:27 | INFO     |   [Client 2] Done  | samples=8  loss=2.4431  acc=62.50%
+2026-10-31 16:08:27 | INFO     |   [Server]   Aggregating masked client updates via secure aggregation...
+2026-10-31 16:08:27 | INFO     |   [Server]   Global model updated.
+2026-10-31 16:08:27 | INFO     |   [Server]   Global Evaluation  →  Loss: 2.2860  |  Accuracy: 33.33%
+2026-10-31 16:08:27 | INFO     |   [Server]   Round duration: 1.55 seconds
+2026-10-31 16:08:27 | INFO     | 
+════════════════════════════════════════════════════════════
+  TRAINING COMPLETE
+════════════════════════════════════════════════════════════
+2026-10-31 16:08:27 | INFO     |   Final Global Loss     : 2.2860
+2026-10-31 16:08:27 | INFO     |   Final Global Accuracy : 33.33%
+2026-10-31 16:08:27 | INFO     | 
+  Baseline Accuracy  : 16.67%
+2026-10-31 16:08:27 | INFO     |   Accuracy change    : +16.67 percentage points

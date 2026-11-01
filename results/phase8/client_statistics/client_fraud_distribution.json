@@ -1,0 +1,76 @@
+{
+  "iid": [
+    {
+      "client_id": 1,
+      "sample_count": 45570,
+      "fraud_count": 79,
+      "legitimate_count": 45491,
+      "fraud_rate": 0.0017335966644722405
+    },
+    {
+      "client_id": 2,
+      "sample_count": 45569,
+      "fraud_count": 79,
+      "legitimate_count": 45490,
+      "fraud_rate": 0.0017336347078057452
+    },
+    {
+      "client_id": 3,
+      "sample_count": 45569,
+      "fraud_count": 79,
+      "legitimate_count": 45490,
+      "fraud_rate": 0.0017336347078057452
+    },
+    {
+      "client_id": 4,
+      "sample_count": 45569,
+      "fraud_count": 79,
+      "legitimate_count": 45490,
+      "fraud_rate": 0.0017336347078057452
+    },
+    {
+      "client_id": 5,
+      "sample_count": 45568,
+      "fraud_count": 78,
+      "legitimate_count": 45490,
+      "fraud_rate": 0.0017117275280898877
+    }
+  ],
+  "non_iid": [
+    {
+      "client_id": 1,
+      "sample_count": 110542,
+      "fraud_count": 90,
+      "legitimate_count": 110452,
+      "fraud_rate": 0.0008141701796602197
+    },
+    {
+      "client_id": 2,
+      "sample_count": 23733,
+      "fraud_count": 187,
+      "legitimate_count": 23546,
+      "fraud_rate": 0.007879324147811066
+    },
+    {
+      "client_id": 3,
+      "sample_count": 26305,
+      "fraud_count": 39,
+      "legitimate_count": 26266,
+      "fraud_rate": 0.0014826078692263829
+    },
+    {
+      "client_id": 4,
+      "sample_count": 44474,
+      "fraud_count": 39,
+      "legitimate_count": 44435,
+      "fraud_rate": 0.0008769168502945541
+    },
+    {
+      "client_id": 5,
+      "sample_count": 22791,
+      "fraud_count": 39,
+      "legitimate_count": 22752,
+      "fraud_rate": 0.0017112017901803344
+    }
+  ]
+}

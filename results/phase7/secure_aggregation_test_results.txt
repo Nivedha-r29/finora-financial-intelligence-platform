@@ -1,0 +1,23 @@
+test_dropout_aborts_when_recovery_is_disabled (test_secure_aggregation.SecureAggregationTests.test_dropout_aborts_when_recovery_is_disabled) ... ok
+test_dropout_budget_is_enforced (test_secure_aggregation.SecureAggregationTests.test_dropout_budget_is_enforced) ... ok
+test_dropout_private_key_recovery_removes_unmatched_masks (test_secure_aggregation.SecureAggregationTests.test_dropout_private_key_recovery_removes_unmatched_masks) ... ok
+test_duplicate_and_malformed_submissions_are_rejected (test_secure_aggregation.SecureAggregationTests.test_duplicate_and_malformed_submissions_are_rejected) ... ok
+test_explicit_aggregation_modes_enable_the_requested_path (test_secure_aggregation.SecureAggregationTests.test_explicit_aggregation_modes_enable_the_requested_path) ... ok
+test_masked_sum_cancels_pairwise_masks (test_secure_aggregation.SecureAggregationTests.test_masked_sum_cancels_pairwise_masks) ... ok
+test_minimum_uploading_client_count_is_enforced (test_secure_aggregation.SecureAggregationTests.test_minimum_uploading_client_count_is_enforced) ... ok
+test_modular_sum_overflow_bound_is_rejected (test_secure_aggregation.SecureAggregationTests.test_modular_sum_overflow_bound_is_rejected) ... ok
+test_non_finite_client_update_is_rejected_before_masking (test_secure_aggregation.SecureAggregationTests.test_non_finite_client_update_is_rejected_before_masking) ... ok
+test_pairwise_mask_generation_uses_opposite_masks (test_secure_aggregation.SecureAggregationTests.test_pairwise_mask_generation_uses_opposite_masks) ... ok
+test_quantization_error_is_bounded_by_half_a_step (test_secure_aggregation.SecureAggregationTests.test_quantization_error_is_bounded_by_half_a_step) ... ok
+test_recovery_requires_threshold_and_distinct_survivors (test_secure_aggregation.SecureAggregationTests.test_recovery_requires_threshold_and_distinct_survivors) ... ok
+test_round_keys_are_fresh_and_round_ids_cannot_be_replayed (test_secure_aggregation.SecureAggregationTests.test_round_keys_are_fresh_and_round_ids_cannot_be_replayed) ... ok
+test_sample_count_mismatch_and_wrong_round_are_rejected (test_secure_aggregation.SecureAggregationTests.test_sample_count_mismatch_and_wrong_round_are_rejected) ... ok
+test_secure_aggregation_matches_ordinary_fedavg (test_secure_aggregation.SecureAggregationTests.test_secure_aggregation_matches_ordinary_fedavg) ... ok
+test_secure_plus_dp_runs_client_noise_before_masking (test_secure_aggregation.SecureAggregationTests.test_secure_plus_dp_runs_client_noise_before_masking) ... ok
+test_server_receives_only_masked_uploads_in_secure_mode (test_secure_aggregation.SecureAggregationTests.test_server_receives_only_masked_uploads_in_secure_mode) ... ok
+test_update_outside_configured_bound_is_rejected (test_secure_aggregation.SecureAggregationTests.test_update_outside_configured_bound_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 6.632s
+
+OK

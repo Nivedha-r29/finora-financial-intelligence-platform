@@ -1,0 +1,268 @@
+2026-11-01 14:33:09 | INFO     | 
+════════════════════════════════════════════════════════════
+  FEDERATED LEARNING TRAINING STARTED
+════════════════════════════════════════════════════════════
+2026-11-01 14:33:09 | INFO     |   Clients           : 3
+2026-11-01 14:33:09 | INFO     |   Communication rounds: 1
+2026-11-01 14:33:09 | INFO     |   Device            : cpu
+2026-11-01 14:33:09 | INFO     |   Aggregation       : Weighted FedAvg
+2026-11-01 14:33:09 | INFO     |   DP mode          : disabled
+2026-11-01 14:33:09 | INFO     | 
+  Baseline (round 0) — Loss: 0.7313  Accuracy: 50.00%
+2026-11-01 14:33:09 | INFO     | 
+────────────────────────────────────────────────────────────
+2026-11-01 14:33:09 | INFO     |   ROUND 1/1
+2026-11-01 14:33:09 | INFO     | ────────────────────────────────────────────────────────────
+2026-11-01 14:33:09 | INFO     |   [Client 1] Received global model parameters (6 parameter tensors)
+2026-11-01 14:33:09 | INFO     |   [Client 2] Received global model parameters (6 parameter tensors)
+2026-11-01 14:33:09 | INFO     |   [Client 3] Received global model parameters (6 parameter tensors)
+2026-11-01 14:33:09 | INFO     |   [Client 1] Training locally...
+2026-11-01 14:33:09 | INFO     |   [Client 1] Done  | samples=8  loss=0.9652  acc=50.00%
+2026-11-01 14:33:09 | INFO     |   [Client 2] Training locally...
+2026-11-01 14:33:09 | INFO     |   [Client 2] Done  | samples=8  loss=0.9583  acc=50.00%
+2026-11-01 14:33:09 | INFO     |   [Client 3] Training locally...
+2026-11-01 14:33:09 | INFO     |   [Client 3] Done  | samples=8  loss=0.9427  acc=50.00%
+2026-11-01 14:33:09 | INFO     |   [Server]   Aggregating client updates via FedAvg...
+2026-11-01 14:33:09 | INFO     |   [Server]   Global model updated.
+2026-11-01 14:33:09 | INFO     |   [Server]   Global Evaluation  →  Loss: 0.7313  |  Accuracy: 50.00%
+2026-11-01 14:33:09 | INFO     |   [Server]   Round duration: 0.05 seconds
+2026-11-01 14:33:09 | INFO     | 
+════════════════════════════════════════════════════════════
+  TRAINING COMPLETE
+════════════════════════════════════════════════════════════
+2026-11-01 14:33:09 | INFO     |   Final Global Loss     : 0.7313
+2026-11-01 14:33:09 | INFO     |   Final Global Accuracy : 50.00%
+2026-11-01 14:33:09 | INFO     | 
+  Baseline Accuracy  : 50.00%
+2026-11-01 14:33:09 | INFO     |   Accuracy change    : +0.00 percentage points
+2026-11-01 14:33:09 | INFO     | 
+════════════════════════════════════════════════════════════
+  FEDERATED LEARNING TRAINING STARTED
+════════════════════════════════════════════════════════════
+2026-11-01 14:33:09 | INFO     |   Clients           : 3
+2026-11-01 14:33:09 | INFO     |   Communication rounds: 1
+2026-11-01 14:33:09 | INFO     |   Device            : cpu
+2026-11-01 14:33:09 | INFO     |   Aggregation       : Weighted FedAvg
+2026-11-01 14:33:09 | INFO     |   DP mode          : disabled
+2026-11-01 14:33:09 | INFO     | 
+  Baseline (round 0) — Loss: 0.7313  Accuracy: 50.00%
+2026-11-01 14:33:09 | INFO     | 
+────────────────────────────────────────────────────────────
+2026-11-01 14:33:09 | INFO     |   ROUND 1/1
+2026-11-01 14:33:09 | INFO     | ────────────────────────────────────────────────────────────
+2026-11-01 14:33:09 | INFO     |   [Client 1] Received global model parameters (6 parameter tensors)
+2026-11-01 14:33:09 | INFO     |   [Client 2] Received global model parameters (6 parameter tensors)
+2026-11-01 14:33:09 | INFO     |   [Client 3] Received global model parameters (6 parameter tensors)
+2026-11-01 14:33:09 | INFO     |   [Client 1] Training locally...
+2026-11-01 14:33:09 | INFO     |   [Client 1] Done  | samples=8  loss=0.9652  acc=50.00%
+2026-11-01 14:33:09 | INFO     |   [Client 2] Training locally...
+2026-11-01 14:33:09 | INFO     |   [Client 2] Done  | samples=8  loss=0.9583  acc=50.00%
+2026-11-01 14:33:09 | INFO     |   [Client 3] Training locally...
+2026-11-01 14:33:09 | INFO     |   [Client 3] Done  | samples=8  loss=0.9426  acc=50.00%
+2026-11-01 14:33:09 | INFO     |   [Server]   Aggregating client updates via FedAvg...
+2026-11-01 14:33:09 | INFO     |   [Server]   Global model updated.
+2026-11-01 14:33:09 | INFO     |   [Server]   Global Evaluation  →  Loss: 0.7315  |  Accuracy: 50.00%
+2026-11-01 14:33:09 | INFO     |   [Server]   Round duration: 0.08 seconds
+2026-11-01 14:33:09 | INFO     | 
+════════════════════════════════════════════════════════════
+  TRAINING COMPLETE
+════════════════════════════════════════════════════════════
+2026-11-01 14:33:09 | INFO     |   Final Global Loss     : 0.7315
+2026-11-01 14:33:09 | INFO     |   Final Global Accuracy : 50.00%
+2026-11-01 14:33:09 | INFO     | 
+  Baseline Accuracy  : 50.00%
+2026-11-01 14:33:09 | INFO     |   Accuracy change    : +0.00 percentage points
+2026-11-01 14:33:09 | INFO     | 
+════════════════════════════════════════════════════════════
+  FEDERATED LEARNING TRAINING STARTED
+════════════════════════════════════════════════════════════
+2026-11-01 14:33:09 | INFO     |   Clients           : 3
+2026-11-01 14:33:09 | INFO     |   Communication rounds: 1
+2026-11-01 14:33:09 | INFO     |   Device            : cpu
+2026-11-01 14:33:09 | INFO     |   Aggregation       : Secure FedAvg
+2026-11-01 14:33:09 | INFO     |   DP mode          : disabled
+2026-11-01 14:33:09 | INFO     |   Secure masks     : enabled (modulus=2305843009213693951, qscale=1000.0)
+2026-11-01 14:33:09 | INFO     | 
+  Baseline (round 0) — Loss: 0.7313  Accuracy: 50.00%
+2026-11-01 14:33:09 | INFO     | 
+────────────────────────────────────────────────────────────
+2026-11-01 14:33:09 | INFO     |   ROUND 1/1
+2026-11-01 14:33:09 | INFO     | ────────────────────────────────────────────────────────────
+2026-11-01 14:33:09 | INFO     |   [Client 1] Received global model parameters (6 parameter tensors)
+2026-11-01 14:33:09 | INFO     |   [Client 2] Received global model parameters (6 parameter tensors)
+2026-11-01 14:33:09 | INFO     |   [Client 3] Received global model parameters (6 parameter tensors)
+2026-11-01 14:33:09 | INFO     |   [Client 1] Training locally...
+2026-11-01 14:33:09 | INFO     |   [Client 1] Done  | samples=8  loss=0.9652  acc=50.00%
+2026-11-01 14:33:09 | INFO     |   [Client 2] Training locally...
+2026-11-01 14:33:09 | INFO     |   [Client 2] Done  | samples=8  loss=0.9583  acc=50.00%
+2026-11-01 14:33:09 | INFO     |   [Client 3] Training locally...
+2026-11-01 14:33:09 | INFO     |   [Client 3] Done  | samples=8  loss=0.9427  acc=50.00%
+2026-11-01 14:33:09 | INFO     |   [Server]   Aggregating masked client updates via secure aggregation...
+2026-11-01 14:33:09 | INFO     |   [Server]   Global model updated.
+2026-11-01 14:33:09 | INFO     |   [Server]   Global Evaluation  →  Loss: 0.7313  |  Accuracy: 50.00%
+2026-11-01 14:33:09 | INFO     |   [Server]   Round duration: 0.10 seconds
+2026-11-01 14:33:09 | INFO     | 
+════════════════════════════════════════════════════════════
+  TRAINING COMPLETE
+════════════════════════════════════════════════════════════
+2026-11-01 14:33:09 | INFO     |   Final Global Loss     : 0.7313
+2026-11-01 14:33:09 | INFO     |   Final Global Accuracy : 50.00%
+2026-11-01 14:33:09 | INFO     | 
+  Baseline Accuracy  : 50.00%
+2026-11-01 14:33:09 | INFO     |   Accuracy change    : +0.00 percentage points
+2026-11-01 14:33:09 | INFO     | 
+════════════════════════════════════════════════════════════
+  FEDERATED LEARNING TRAINING STARTED
+════════════════════════════════════════════════════════════
+2026-11-01 14:33:09 | INFO     |   Clients           : 3
+2026-11-01 14:33:09 | INFO     |   Communication rounds: 1
+2026-11-01 14:33:09 | INFO     |   Device            : cpu
+2026-11-01 14:33:09 | INFO     |   Aggregation       : Secure FedAvg
+2026-11-01 14:33:09 | INFO     |   DP mode          : disabled
+2026-11-01 14:33:09 | INFO     |   Secure masks     : enabled (modulus=2305843009213693951, qscale=1000.0)
+2026-11-01 14:33:09 | INFO     | 
+  Baseline (round 0) — Loss: 0.7313  Accuracy: 50.00%
+2026-11-01 14:33:09 | INFO     | 
+────────────────────────────────────────────────────────────
+2026-11-01 14:33:09 | INFO     |   ROUND 1/1
+2026-11-01 14:33:09 | INFO     | ────────────────────────────────────────────────────────────
+2026-11-01 14:33:09 | INFO     |   [Client 1] Received global model parameters (6 parameter tensors)
+2026-11-01 14:33:09 | INFO     |   [Client 2] Received global model parameters (6 parameter tensors)
+2026-11-01 14:33:09 | INFO     |   [Client 3] Received global model parameters (6 parameter tensors)
+2026-11-01 14:33:09 | INFO     |   [Client 1] Training locally...
+2026-11-01 14:33:09 | INFO     |   [Client 1] Done  | samples=8  loss=0.9653  acc=50.00%
+2026-11-01 14:33:09 | INFO     |   [Client 2] Training locally...
+2026-11-01 14:33:09 | INFO     |   [Client 2] Done  | samples=8  loss=0.9582  acc=50.00%
+2026-11-01 14:33:09 | INFO     |   [Client 3] Training locally...
+2026-11-01 14:33:09 | INFO     |   [Client 3] Done  | samples=8  loss=0.9426  acc=50.00%
+2026-11-01 14:33:09 | INFO     |   [Server]   Aggregating masked client updates via secure aggregation...
+2026-11-01 14:33:09 | INFO     |   [Server]   Global model updated.
+2026-11-01 14:33:09 | INFO     |   [Server]   Global Evaluation  →  Loss: 0.7315  |  Accuracy: 50.00%
+2026-11-01 14:33:09 | INFO     |   [Server]   Round duration: 0.10 seconds
+2026-11-01 14:33:09 | INFO     | 
+════════════════════════════════════════════════════════════
+  TRAINING COMPLETE
+════════════════════════════════════════════════════════════
+2026-11-01 14:33:09 | INFO     |   Final Global Loss     : 0.7315
+2026-11-01 14:33:09 | INFO     |   Final Global Accuracy : 50.00%
+2026-11-01 14:33:09 | INFO     | 
+  Baseline Accuracy  : 50.00%
+2026-11-01 14:33:09 | INFO     |   Accuracy change    : +0.00 percentage points
+2026-11-01 14:33:11 | INFO     | 
+════════════════════════════════════════════════════════════
+  FEDERATED LEARNING TRAINING STARTED
+════════════════════════════════════════════════════════════
+2026-11-01 14:33:11 | INFO     |   Clients           : 2
+2026-11-01 14:33:11 | INFO     |   Communication rounds: 1
+2026-11-01 14:33:11 | INFO     |   Device            : cpu
+2026-11-01 14:33:11 | INFO     |   Aggregation       : Secure FedAvg
+2026-11-01 14:33:11 | INFO     |   DP mode          : enabled (noise=1.0, max_grad_norm=1.0)
+2026-11-01 14:33:11 | INFO     |   Secure masks     : enabled (modulus=2305843009213693951, qscale=1000.0)
+2026-11-01 14:33:11 | INFO     | 
+  Baseline (round 0) — Loss: 0.5171  Accuracy: 75.00%
+2026-11-01 14:33:11 | INFO     | 
+────────────────────────────────────────────────────────────
+2026-11-01 14:33:11 | INFO     |   ROUND 1/1
+2026-11-01 14:33:11 | INFO     | ────────────────────────────────────────────────────────────
+2026-11-01 14:33:11 | INFO     |   [Client 1] Received global model parameters (2 parameter tensors)
+2026-11-01 14:33:11 | INFO     |   [Client 2] Received global model parameters (2 parameter tensors)
+2026-11-01 14:33:11 | INFO     |   [Client 1] Training locally...
+2026-11-01 14:33:11 | INFO     |   [Client 1] Done  | samples=4  loss=0.6543  acc=50.00%
+2026-11-01 14:33:11 | INFO     |   [Client 2] Training locally...
+2026-11-01 14:33:11 | INFO     |   [Client 2] Done  | samples=4  loss=0.6934  acc=50.00%
+2026-11-01 14:33:11 | INFO     |   [Server]   Aggregating masked client updates via secure aggregation...
+2026-11-01 14:33:11 | INFO     |   [Server]   Global model updated.
+2026-11-01 14:33:11 | INFO     |   [Server]   Global Evaluation  →  Loss: 0.5159  |  Accuracy: 75.00%
+2026-11-01 14:33:11 | INFO     |   [Server]   Round duration: 0.03 seconds
+2026-11-01 14:33:11 | INFO     | 
+════════════════════════════════════════════════════════════
+  TRAINING COMPLETE
+════════════════════════════════════════════════════════════
+2026-11-01 14:33:11 | INFO     |   Final Global Loss     : 0.5159
+2026-11-01 14:33:11 | INFO     |   Final Global Accuracy : 75.00%
+2026-11-01 14:33:11 | INFO     | 
+  Baseline Accuracy  : 75.00%
+2026-11-01 14:33:11 | INFO     |   Accuracy change    : +0.00 percentage points
+2026-11-01 14:33:11 | INFO     | 
+════════════════════════════════════════════════════════════
+  FEDERATED LEARNING TRAINING STARTED
+════════════════════════════════════════════════════════════
+2026-11-01 14:33:11 | INFO     |   Clients           : 2
+2026-11-01 14:33:11 | INFO     |   Communication rounds: 1
+2026-11-01 14:33:11 | INFO     |   Device            : cpu
+2026-11-01 14:33:11 | INFO     |   Aggregation       : Secure FedAvg
+2026-11-01 14:33:11 | INFO     |   DP mode          : disabled
+2026-11-01 14:33:11 | INFO     |   Secure masks     : enabled (modulus=2305843009213693951, qscale=1000.0)
+2026-11-01 14:33:11 | INFO     | 
+  Baseline (round 0) — Loss: 3.7180  Accuracy: 0.00%
+2026-11-01 14:33:11 | INFO     | 
+────────────────────────────────────────────────────────────
+2026-11-01 14:33:11 | INFO     |   ROUND 1/1
+2026-11-01 14:33:11 | INFO     | ────────────────────────────────────────────────────────────
+2026-11-01 14:33:11 | INFO     |   [Client 1] Received global model parameters (16 parameter tensors)
+2026-11-01 14:33:11 | INFO     |   [Client 2] Received global model parameters (16 parameter tensors)
+2026-11-01 14:33:11 | INFO     |   [Client 1] Training locally...
+2026-11-01 14:33:12 | INFO     |   [Client 1] Done  | samples=8  loss=2.7817  acc=25.00%
+2026-11-01 14:33:12 | INFO     |   [Client 2] Training locally...
+2026-11-01 14:33:13 | INFO     |   [Client 2] Done  | samples=8  loss=3.0620  acc=12.50%
+2026-11-01 14:33:13 | INFO     |   [Server]   Aggregating masked client updates via secure aggregation...
+2026-11-01 14:33:13 | INFO     |   [Server]   Global model updated.
+2026-11-01 14:33:13 | INFO     |   [Server]   Global Evaluation  →  Loss: 3.6422  |  Accuracy: 0.00%
+2026-11-01 14:33:13 | INFO     |   [Server]   Round duration: 1.49 seconds
+2026-11-01 14:33:13 | INFO     | 
+════════════════════════════════════════════════════════════
+  TRAINING COMPLETE
+════════════════════════════════════════════════════════════
+2026-11-01 14:33:13 | INFO     |   Final Global Loss     : 3.6422
+2026-11-01 14:33:13 | INFO     |   Final Global Accuracy : 0.00%
+2026-11-01 14:33:13 | INFO     | 
+  Baseline Accuracy  : 0.00%
+2026-11-01 14:33:13 | INFO     |   Accuracy change    : +0.00 percentage points
+2026-11-01 14:33:13 | INFO     | 
+════════════════════════════════════════════════════════════
+  FEDERATED LEARNING TRAINING STARTED
+════════════════════════════════════════════════════════════
+2026-11-01 14:33:13 | INFO     |   Clients           : 2
+2026-11-01 14:33:13 | INFO     |   Communication rounds: 2
+2026-11-01 14:33:13 | INFO     |   Device            : cpu
+2026-11-01 14:33:13 | INFO     |   Aggregation       : Weighted FedAvg
+2026-11-01 14:33:13 | INFO     |   DP mode          : disabled
+2026-11-01 14:33:13 | INFO     | 
+  Baseline (round 0) — Loss: 3.2360  Accuracy: 16.67%
+2026-11-01 14:33:13 | INFO     | 
+────────────────────────────────────────────────────────────
+2026-11-01 14:33:13 | INFO     |   ROUND 1/2
+2026-11-01 14:33:13 | INFO     | ────────────────────────────────────────────────────────────
+2026-11-01 14:33:13 | INFO     |   [Client 1] Received global model parameters (16 parameter tensors)
+2026-11-01 14:33:13 | INFO     |   [Client 2] Received global model parameters (16 parameter tensors)
+2026-11-01 14:33:13 | INFO     |   [Client 1] Training locally...
+2026-11-01 14:33:13 | INFO     |   [Client 1] Done  | samples=8  loss=2.7723  acc=25.00%
+2026-11-01 14:33:13 | INFO     |   [Client 2] Training locally...
+2026-11-01 14:33:13 | INFO     |   [Client 2] Done  | samples=8  loss=2.4271  acc=25.00%
+2026-11-01 14:33:13 | INFO     |   [Server]   Aggregating client updates via FedAvg...
+2026-11-01 14:33:13 | INFO     |   [Server]   Global model updated.
+2026-11-01 14:33:13 | INFO     |   [Server]   Global Evaluation  →  Loss: 3.0458  |  Accuracy: 16.67%
+2026-11-01 14:33:13 | INFO     |   [Server]   Round duration: 0.08 seconds
+2026-11-01 14:33:13 | INFO     | 
+────────────────────────────────────────────────────────────
+2026-11-01 14:33:13 | INFO     |   ROUND 2/2
+2026-11-01 14:33:13 | INFO     | ────────────────────────────────────────────────────────────
+2026-11-01 14:33:13 | INFO     |   [Client 1] Received global model parameters (16 parameter tensors)
+2026-11-01 14:33:13 | INFO     |   [Client 2] Received global model parameters (16 parameter tensors)
+2026-11-01 14:33:13 | INFO     |   [Client 1] Training locally...
+2026-11-01 14:33:13 | INFO     |   [Client 1] Done  | samples=8  loss=1.9485  acc=25.00%
+2026-11-01 14:33:13 | INFO     |   [Client 2] Training locally...
+2026-11-01 14:33:13 | INFO     |   [Client 2] Done  | samples=8  loss=1.5627  acc=37.50%
+2026-11-01 14:33:13 | INFO     |   [Server]   Aggregating client updates via FedAvg...
+2026-11-01 14:33:13 | INFO     |   [Server]   Global model updated.
+2026-11-01 14:33:13 | INFO     |   [Server]   Global Evaluation  →  Loss: 2.9103  |  Accuracy: 16.67%
+2026-11-01 14:33:13 | INFO     |   [Server]   Round duration: 0.06 seconds
+2026-11-01 14:33:13 | INFO     | 
+════════════════════════════════════════════════════════════
+  TRAINING COMPLETE
+════════════════════════════════════════════════════════════
+2026-11-01 14:33:13 | INFO     |   Final Global Loss     : 2.9103
+2026-11-01 14:33:13 | INFO     |   Final Global Accuracy : 16.67%
+2026-11-01 14:33:13 | INFO     | 
+  Baseline Accuracy  : 16.67%
+2026-11-01 14:33:13 | INFO     |   Accuracy change    : +0.00 percentage points

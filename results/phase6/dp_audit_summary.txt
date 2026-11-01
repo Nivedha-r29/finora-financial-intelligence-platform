@@ -1,0 +1,12 @@
+﻿Summary of the DP audit:
+- The original implementation qualified as a DP-SGD extension only if per-example gradient clipping and Gaussian noise were applied to each sample before aggregation.
+- The corrected implementation now computes per-sample gradients, clips each sample by max_grad_norm, averages the clipped contributions, and injects Gaussian noise before optimizer step.
+- The privacy accountant tracks per-client RDP-like budget accumulation using the sample fraction q, local epochs, and round count in a conservative approximation.
+- Standard FedAvg without DP remains unchanged and passes the existing FL tests.
+- The Kaggle credit-card CSV is not present in the repository, so the financial smoke test uses a synthetic binary dataset that matches the expected tabular finance structure, and the limitation is documented explicitly.
+
+Files created/updated:
+- privacy/accountant.py
+- client/trainer.py
+- tests/test_differential_privacy.py
+- results/phase6/dp_audit_summary.txt

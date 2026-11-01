@@ -1,0 +1,61 @@
+{
+  "phase": 7,
+  "tests": {
+    "secure_aggregation": {
+      "tests_run": 18,
+      "failures": 0,
+      "errors": 0,
+      "successful": true,
+      "details_file": "secure_aggregation_test_results.txt"
+    },
+    "full_suite": {
+      "tests_run": 34,
+      "failures": 0,
+      "errors": 0,
+      "successful": true,
+      "details_file": "full_test_suite.txt"
+    }
+  },
+  "benchmark": {
+    "protocol": "Bonawitz-style pairwise masks (X25519 + Shamir dropout recovery)",
+    "synthetic_only": true,
+    "client_count": 5,
+    "tensor_elements_per_client": 4098,
+    "repetitions": 5,
+    "sample_counts": {
+      "1": 111,
+      "2": 122,
+      "3": 133,
+      "4": 144,
+      "5": 155
+    },
+    "fedavg_median_seconds": 0.0011793000012403354,
+    "secure_fedavg_median_seconds": 0.5125995999987936,
+    "measured_compute_overhead_percent": 43366.429191865005,
+    "max_absolute_quantization_error": 4.127621650695801e-05,
+    "quantization_error_bound": 5e-05,
+    "standard_tensor_upload_bytes": 81960,
+    "secure_tensor_upload_bytes": 163920,
+    "secure_tensor_payload_overhead_percent": 100.0,
+    "estimated_public_key_and_share_bytes": 1520,
+    "estimated_secure_round_bytes_including_setup": 165440,
+    "communication_estimate_excludes": [
+      "transport framing",
+      "round IDs and tensor metadata",
+      "TLS/authentication overhead",
+      "dropout recovery messages"
+    ]
+  },
+  "security_assumptions": [
+    "The server and at most recovery_threshold - 1 surviving clients do not collude to reconstruct a non-uploader key.",
+    "At least two non-colluding uploading clients remain for an aggregate to hide individual updates.",
+    "The simulator's in-memory client-to-client share exchange stands in for authenticated private channels."
+  ],
+  "limitations": [
+    "No network transport, public-key authentication, secure hardware, or production deployment is implemented.",
+    "The server learns sample counts and existing per-client loss/accuracy monitoring scalars.",
+    "Integer state buffers are sample-weight averaged and rounded; the existing FedAvg path uses max for discrete buffers. Equal BatchNorm counters remain unchanged.",
+    "Secure aggregation hides individual updates only within a round; repeated or differenced aggregates can still disclose information.",
+    "Local DP followed by secure aggregation is supported, but DP guarantees depend on the existing accountant and per-client noise configuration."
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "dataset": "MNIST",
+  "train_samples": 60000,
+  "test_samples": 10000,
+  "model": "MLP",
+  "model_kwargs": {
+    "input_dim": 784,
+    "hidden_dim1": 128,
+    "hidden_dim2": 64,
+    "num_classes": 10,
+    "dropout_p": 0.2
+  },
+  "num_clients": 5,
+  "iid_rounds": 10,
+  "noniid_rounds": 2,
+  "noniid_alpha": 0.3,
+  "local_epochs": 1,
+  "centralized_epochs": 10,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "optimizer": "Adam",
+  "iid_partition_seed": 42,
+  "noniid_partition_seed": 42,
+  "device": "cpu",
+  "python_version": "3.13.5",
+  "torch_version": "2.14.1+cpu",
+  "deterministic_algorithms_requested": true,
+  "random_seeds": {
+    "python": 42,
+    "numpy": 42,
+    "pytorch": 42,
+    "dataloader_base": 43
+  },
+  "notes": [
+    "IID is the full ten-round primary experiment.",
+    "Non-IID is a two-round compute-limited diagnostic compared at a matched two-round IID budget.",
+    "Centralized training uses the same initialized MLP and ten full-data epochs; its optimizer updates are not periodically averaged.",
+    "No test data is used for training or hyperparameter selection."
+  ]
+}

@@ -1,0 +1,33 @@
+2026-10-13 10:47:31 | INFO     | 
+════════════════════════════════════════════════════════════
+  FEDERATED LEARNING TRAINING STARTED
+════════════════════════════════════════════════════════════
+2026-10-13 10:47:31 | INFO     |   Clients           : 2
+2026-10-13 10:47:31 | INFO     |   Communication rounds: 1
+2026-10-13 10:47:31 | INFO     |   Device            : cpu
+2026-10-13 10:47:31 | INFO     |   Aggregation       : Weighted FedAvg
+2026-10-13 10:47:31 | INFO     | 
+  Baseline (round 0) — Loss: 3.2360  Accuracy: 16.67%
+2026-10-13 10:47:31 | INFO     | 
+────────────────────────────────────────────────────────────
+2026-10-13 10:47:31 | INFO     |   ROUND 1/1
+2026-10-13 10:47:31 | INFO     | ────────────────────────────────────────────────────────────
+2026-10-13 10:47:31 | INFO     |   [Client 1] Received global model parameters (16 parameter tensors)
+2026-10-13 10:47:31 | INFO     |   [Client 2] Received global model parameters (16 parameter tensors)
+2026-10-13 10:47:31 | INFO     |   [Client 1] Training locally...
+2026-10-13 10:47:33 | INFO     |   [Client 1] Done  | samples=8  loss=2.7723  acc=25.00%
+2026-10-13 10:47:33 | INFO     |   [Client 2] Training locally...
+2026-10-13 10:47:33 | INFO     |   [Client 2] Done  | samples=8  loss=2.4271  acc=25.00%
+2026-10-13 10:47:33 | INFO     |   [Server]   Aggregating client updates via FedAvg...
+2026-10-13 10:47:33 | INFO     |   [Server]   Global model updated.
+2026-10-13 10:47:33 | INFO     |   [Server]   Global Evaluation  →  Loss: 3.0460  |  Accuracy: 16.67%
+2026-10-13 10:47:33 | INFO     |   [Server]   Round duration: 1.73 seconds
+2026-10-13 10:47:33 | INFO     | 
+════════════════════════════════════════════════════════════
+  TRAINING COMPLETE
+════════════════════════════════════════════════════════════
+2026-10-13 10:47:33 | INFO     |   Final Global Loss     : 3.0460
+2026-10-13 10:47:33 | INFO     |   Final Global Accuracy : 16.67%
+2026-10-13 10:47:33 | INFO     | 
+  Baseline Accuracy  : 16.67%
+2026-10-13 10:47:33 | INFO     |   Accuracy change    : +0.00 percentage points

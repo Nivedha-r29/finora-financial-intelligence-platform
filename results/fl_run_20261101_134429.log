@@ -1,0 +1,78 @@
+2026-11-01 13:44:29 | INFO     | 
+════════════════════════════════════════════════════════════
+  FEDERATED LEARNING TRAINING STARTED
+════════════════════════════════════════════════════════════
+2026-11-01 13:44:29 | INFO     |   Clients           : 3
+2026-11-01 13:44:29 | INFO     |   Communication rounds: 1
+2026-11-01 13:44:29 | INFO     |   Device            : cpu
+2026-11-01 13:44:29 | INFO     |   Aggregation       : Weighted FedAvg
+2026-11-01 13:44:29 | INFO     |   DP mode          : disabled
+2026-11-01 13:44:29 | INFO     | 
+  Baseline (round 0) — Loss: 0.7313  Accuracy: 50.00%
+2026-11-01 13:44:29 | INFO     | 
+────────────────────────────────────────────────────────────
+2026-11-01 13:44:29 | INFO     |   ROUND 1/1
+2026-11-01 13:44:29 | INFO     | ────────────────────────────────────────────────────────────
+2026-11-01 13:44:29 | INFO     |   [Client 1] Received global model parameters (6 parameter tensors)
+2026-11-01 13:44:29 | INFO     |   [Client 2] Received global model parameters (6 parameter tensors)
+2026-11-01 13:44:29 | INFO     |   [Client 3] Received global model parameters (6 parameter tensors)
+2026-11-01 13:44:29 | INFO     |   [Client 1] Training locally...
+2026-11-01 13:44:29 | INFO     | 
+════════════════════════════════════════════════════════════
+  FEDERATED LEARNING TRAINING STARTED
+════════════════════════════════════════════════════════════
+2026-11-01 13:44:29 | INFO     |   Clients           : 3
+2026-11-01 13:44:29 | INFO     |   Communication rounds: 1
+2026-11-01 13:44:29 | INFO     |   Device            : cpu
+2026-11-01 13:44:29 | INFO     |   Aggregation       : Weighted FedAvg
+2026-11-01 13:44:29 | INFO     |   DP mode          : disabled
+2026-11-01 13:44:29 | INFO     | 
+  Baseline (round 0) — Loss: 0.7313  Accuracy: 50.00%
+2026-11-01 13:44:29 | INFO     | 
+────────────────────────────────────────────────────────────
+2026-11-01 13:44:29 | INFO     |   ROUND 1/1
+2026-11-01 13:44:29 | INFO     | ────────────────────────────────────────────────────────────
+2026-11-01 13:44:29 | INFO     |   [Client 1] Received global model parameters (6 parameter tensors)
+2026-11-01 13:44:29 | INFO     |   [Client 2] Received global model parameters (6 parameter tensors)
+2026-11-01 13:44:29 | INFO     |   [Client 3] Received global model parameters (6 parameter tensors)
+2026-11-01 13:44:29 | INFO     |   [Client 1] Training locally...
+2026-11-01 13:44:29 | INFO     | 
+════════════════════════════════════════════════════════════
+  FEDERATED LEARNING TRAINING STARTED
+════════════════════════════════════════════════════════════
+2026-11-01 13:44:29 | INFO     |   Clients           : 3
+2026-11-01 13:44:29 | INFO     |   Communication rounds: 1
+2026-11-01 13:44:29 | INFO     |   Device            : cpu
+2026-11-01 13:44:29 | INFO     |   Aggregation       : Secure FedAvg
+2026-11-01 13:44:29 | INFO     |   DP mode          : disabled
+2026-11-01 13:44:29 | INFO     |   Secure masks     : enabled (modulus=2305843009213693951, qscale=1000.0)
+2026-11-01 13:44:29 | INFO     | 
+  Baseline (round 0) — Loss: 0.7313  Accuracy: 50.00%
+2026-11-01 13:44:29 | INFO     | 
+────────────────────────────────────────────────────────────
+2026-11-01 13:44:29 | INFO     |   ROUND 1/1
+2026-11-01 13:44:29 | INFO     | ────────────────────────────────────────────────────────────
+2026-11-01 13:44:29 | INFO     |   [Client 1] Received global model parameters (6 parameter tensors)
+2026-11-01 13:44:29 | INFO     |   [Client 2] Received global model parameters (6 parameter tensors)
+2026-11-01 13:44:29 | INFO     |   [Client 3] Received global model parameters (6 parameter tensors)
+2026-11-01 13:44:29 | INFO     |   [Client 1] Training locally...
+2026-11-01 13:44:29 | INFO     | 
+════════════════════════════════════════════════════════════
+  FEDERATED LEARNING TRAINING STARTED
+════════════════════════════════════════════════════════════
+2026-11-01 13:44:29 | INFO     |   Clients           : 3
+2026-11-01 13:44:29 | INFO     |   Communication rounds: 1
+2026-11-01 13:44:29 | INFO     |   Device            : cpu
+2026-11-01 13:44:29 | INFO     |   Aggregation       : Secure FedAvg
+2026-11-01 13:44:29 | INFO     |   DP mode          : disabled
+2026-11-01 13:44:29 | INFO     |   Secure masks     : enabled (modulus=2305843009213693951, qscale=1000.0)
+2026-11-01 13:44:29 | INFO     | 
+  Baseline (round 0) — Loss: 0.7313  Accuracy: 50.00%
+2026-11-01 13:44:29 | INFO     | 
+────────────────────────────────────────────────────────────
+2026-11-01 13:44:29 | INFO     |   ROUND 1/1
+2026-11-01 13:44:29 | INFO     | ────────────────────────────────────────────────────────────
+2026-11-01 13:44:29 | INFO     |   [Client 1] Received global model parameters (6 parameter tensors)
+2026-11-01 13:44:29 | INFO     |   [Client 2] Received global model parameters (6 parameter tensors)
+2026-11-01 13:44:29 | INFO     |   [Client 3] Received global model parameters (6 parameter tensors)
+2026-11-01 13:44:29 | INFO     |   [Client 1] Training locally...

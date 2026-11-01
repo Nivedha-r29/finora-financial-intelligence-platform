@@ -1,0 +1,32 @@
+2026-10-07 19:08:44 | INFO     | 
+════════════════════════════════════════════════════════════
+  FEDERATED LEARNING TRAINING STARTED
+════════════════════════════════════════════════════════════
+2026-10-07 19:08:44 | INFO     |   Clients           : 2
+2026-10-07 19:08:44 | INFO     |   Communication rounds: 1
+2026-10-07 19:08:44 | INFO     |   Device            : cpu
+2026-10-07 19:08:44 | INFO     |   Aggregation       : Weighted FedAvg
+2026-10-07 19:08:47 | INFO     | 
+  Baseline (round 0) — Loss: 3.4865  Accuracy: 8.34%
+2026-10-07 19:08:47 | INFO     | 
+────────────────────────────────────────────────────────────
+2026-10-07 19:08:47 | INFO     |   ROUND 1/1
+2026-10-07 19:08:47 | INFO     | ────────────────────────────────────────────────────────────
+2026-10-07 19:08:47 | INFO     |   [Client 0] Received global model parameters (16 parameter tensors)
+2026-10-07 19:08:47 | INFO     |   [Client 1] Received global model parameters (16 parameter tensors)
+2026-10-07 19:08:47 | INFO     |   [Client 0] Training locally...
+2026-10-07 19:09:06 | INFO     |   [Client 0] Done  | samples=30,000  loss=0.5349  acc=94.47%
+2026-10-07 19:09:06 | INFO     |   [Client 1] Training locally...
+2026-10-07 19:09:25 | INFO     |   [Client 1] Done  | samples=30,000  loss=0.5254  acc=94.39%
+2026-10-07 19:09:25 | INFO     |   [Server]   Aggregating client updates via FedAvg...
+2026-10-07 19:09:25 | INFO     |   [Server]   Global model updated.
+2026-10-07 19:09:28 | INFO     |   [Server]   Global Evaluation  →  Loss: 0.1936  |  Accuracy: 94.28%
+2026-10-07 19:09:28 | INFO     | 
+════════════════════════════════════════════════════════════
+  TRAINING COMPLETE
+════════════════════════════════════════════════════════════
+2026-10-07 19:09:28 | INFO     |   Final Global Loss     : 0.1936
+2026-10-07 19:09:28 | INFO     |   Final Global Accuracy : 94.28%
+2026-10-07 19:09:28 | INFO     | 
+  Baseline Accuracy  : 8.34%
+2026-10-07 19:09:28 | INFO     |   Improvement        : +85.94%

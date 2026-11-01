@@ -1,0 +1,30 @@
+2026-11-01 13:51:12,307 INFO Loaded S:\Flora\creditcard.csv: rows=284807 columns=31 fraud=492 train=227845 test=56962 device=cpu
+2026-11-01 13:51:42,056 INFO fedavg_iid succeeded: PR-AUC=0.682976 recall=0.908163 duration=19.27s
+2026-11-01 13:52:09,119 INFO dp_fedavg_iid succeeded: PR-AUC=0.023000 recall=1.000000 duration=25.89s
+2026-11-01 13:52:31,222 INFO secure_fedavg_iid succeeded: PR-AUC=0.681495 recall=0.908163 duration=20.66s
+2026-11-01 13:52:59,609 INFO secure_dp_fedavg_iid succeeded: PR-AUC=0.028622 recall=1.000000 duration=27.15s
+2026-11-01 13:53:21,875 INFO fedavg_non_iid succeeded: PR-AUC=0.705932 recall=0.836735 duration=20.57s
+2026-11-01 13:53:50,141 INFO dp_fedavg_non_iid succeeded: PR-AUC=0.024840 recall=0.938776 duration=26.85s
+2026-11-01 13:54:11,770 INFO secure_fedavg_non_iid succeeded: PR-AUC=0.707092 recall=0.836735 duration=20.13s
+2026-11-01 13:54:40,717 INFO secure_dp_fedavg_non_iid succeeded: PR-AUC=0.007875 recall=0.683673 duration=27.48s
+2026-11-01 13:55:03,394 INFO Phase 8 finished: 9 successful and 0 failed experiments
+2026-11-01 13:57:30,459 INFO Loaded S:\Flora\creditcard.csv: rows=284807 columns=31 fraud=492 train=227845 test=56962 device=cpu
+2026-11-01 13:58:00,826 INFO fedavg_iid succeeded: PR-AUC=0.682976 recall=0.908163 duration=19.56s
+2026-11-01 13:58:27,461 INFO dp_fedavg_iid succeeded: PR-AUC=0.023000 recall=1.000000 duration=25.50s
+2026-11-01 13:58:48,376 INFO secure_fedavg_iid succeeded: PR-AUC=0.681495 recall=0.908163 duration=19.47s
+2026-11-01 13:59:14,397 INFO secure_dp_fedavg_iid succeeded: PR-AUC=0.028622 recall=1.000000 duration=24.91s
+2026-11-01 13:59:35,223 INFO fedavg_non_iid succeeded: PR-AUC=0.705932 recall=0.836735 duration=19.29s
+2026-11-01 14:00:03,992 INFO dp_fedavg_non_iid succeeded: PR-AUC=0.024840 recall=0.938776 duration=27.39s
+2026-11-01 14:00:24,681 INFO secure_fedavg_non_iid succeeded: PR-AUC=0.707092 recall=0.836735 duration=19.28s
+2026-11-01 14:00:51,869 INFO secure_dp_fedavg_non_iid succeeded: PR-AUC=0.007875 recall=0.683673 duration=25.82s
+2026-11-01 14:01:12,989 INFO Phase 8 finished: 9 successful and 0 failed experiments
+2026-11-01 14:04:48,312 INFO Loaded S:\Flora\creditcard.csv: rows=284807 columns=31 fraud=492 train=227845 test=56962 device=cpu
+2026-11-01 14:05:19,552 INFO fedavg_iid succeeded: PR-AUC=0.682976 recall=0.908163 duration=20.19s
+2026-11-01 14:05:46,242 INFO dp_fedavg_iid succeeded: PR-AUC=0.023000 recall=1.000000 duration=25.57s
+2026-11-01 14:06:07,083 INFO secure_fedavg_iid succeeded: PR-AUC=0.681495 recall=0.908163 duration=19.42s
+2026-11-01 14:06:32,759 INFO secure_dp_fedavg_iid succeeded: PR-AUC=0.028622 recall=1.000000 duration=24.55s
+2026-11-01 14:06:53,036 INFO fedavg_non_iid succeeded: PR-AUC=0.694160 recall=0.867347 duration=18.71s
+2026-11-01 14:07:20,264 INFO dp_fedavg_non_iid succeeded: PR-AUC=0.025988 recall=1.000000 duration=25.89s
+2026-11-01 14:07:40,831 INFO secure_fedavg_non_iid succeeded: PR-AUC=0.695637 recall=0.877551 duration=19.26s
+2026-11-01 14:08:09,324 INFO secure_dp_fedavg_non_iid succeeded: PR-AUC=0.010214 recall=0.938776 duration=26.98s
+2026-11-01 14:08:32,850 INFO Phase 8 finished: 9 successful and 0 failed experiments
